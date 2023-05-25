@@ -1,0 +1,600 @@
+/* Introduction Section */
+.btn {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.bgimage {
+    background-color:whitesmoke !important;
+    background-size:cover;
+}
+.intro-container {
+    padding-top: 100px;
+}
+.skills-container {
+    padding-top: 40px !important;
+}
+.intro {
+    margin-left: auto;
+    margin-right: auto;
+    height: 530px;
+    width:100%;
+    background-color: black;
+}
+.skills-intro {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    min-height:350px;
+    background-color: #FCC9A9;
+}
+.inner-row {
+    height:100%;
+}
+.intro-1 {
+    height: 100%;
+    background-color: #FCC9A9;
+    padding-top:30px;
+}
+.intro_name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 20px;
+    color:black;
+}
+.intro-2 {
+    background-color: #2881ff;
+}
+.intro-no-margin {
+    margin-left: 0px !important;
+}
+.photo-box {
+    height: 80%;
+    width: 88%;
+    background: url('../images/photo.jpg');
+    background-size:cover;
+    margin-top: 11%;
+    margin-bottom: 15%;
+    margin-left: 13%;
+    border-top: 8px solid black;
+    border-left: 8px solid black;
+    border-bottom: 8px solid black;
+}
+.intro-3 {
+    height: 100%;
+    background-color: #F7F8F7 !important;
+    color:black;
+    padding-top: 110px;
+}
+.intro_title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight:700;
+    padding-left:30px;
+}
+.intro_desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-left:30px;
+    padding-right:40px;
+}
+.intro_desc strong {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Education Section */
+#education .intro-container {
+    padding-top: 50px;
+}
+.education_menu {
+    font-weight: 300;
+    font-size: 1.3rem;
+    border: 0px;
+    background: none;
+    text-align:left;
+    padding-left:0px;
+    margin-left:20px;
+    padding-bottom:0px;
+    width:89%;
+} 
+.education_selected {
+    font-weight: 300;
+    font-size: 1.3rem;
+    border: 0px;
+    background: none;
+    text-align:left;
+    padding-left:0px;
+    margin-left:20px;
+    padding-bottom:20px;
+    width:89%;
+} 
+.education_menu:hover {
+    font-weight: 700;
+}
+.education_menu:hover + .education_menu_underline {
+    width:0%;
+}
+.education_menu:after {
+    display:block;
+    content: '';
+    padding-bottom: 15px;
+    border-bottom: 5px solid black; 
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.education_menu:hover:after {
+    transform: scaleX(1);
+}
+.education_menu:after{  
+    transform-origin:  0% 50%; 
+}
+.education_menu_top {
+    margin-top: 80px;
+} 
+.education_menu_underline {
+    margin-left: 10%;
+    width: 70%;
+    border: 2px solid rgb(154, 153, 153);
+    margin-top:0px;
+}
+.education_menu_underline:hover {
+    width: 0%;
+}
+.education-1 {
+    height: 100%;
+    min-height: 375px;
+    background-color: #FCC9A9;
+}
+.education-2 {
+    background-color: #F7F8F7 !important;
+    padding-top: 50px;
+    padding-right:0px;
+    color:black;
+}
+.skills-2 {
+    background-color: #F7F8F7 !important;
+    padding-top: 0px;
+    padding-right:0px;
+    color:black;
+}
+.education_title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight:700;
+    padding-left:30px;
+    margin-bottom: 20px;
+}
+.skills_main_title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight:700;
+    padding-left:30px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.education_year {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-left:30px;
+    padding-bottom: 0px;
+}
+.education-row {
+    width:100%;
+    height: 300px;
+    padding-top:20px;
+    border-right: 8px solid black;
+    padding-right: 50px;
+}
+.skills-extra-row {
+    padding-top:30px;
+    padding-right: 70px;
+}
+.education_desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-left:30px;
+}
+.education-3 {
+    height: 100%;
+    background-color: #F7F8F7 !important;
+    color:black;
+    padding-top: 140px;
+}
+.education_degree {
+    font-size: 1.4rem;
+    padding-right:30px;
+    font-weight: 600;
+}
+.specialisation {
+    font-size: 1.2rem;
+}
+.coursework {
+    margin-right: 15px;
+}
+.stanford {
+    margin-left: 20px;
+}
+.stanford-row {
+    width:100%;
+    height: 180px;
+    padding-top:20px;
+    border-right: 8px solid black;
+}
+.small_desc {
+    font-size: 1.0rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-left:110px;
+    padding-right:40px;
+    margin-top:0px;
+}
+.int_underline {
+    margin-top: 35px;
+}
+.int-exposure {
+    height:680px;
+}
+.yonsei {
+    margin-left: 35px;
+}
+.winter {
+    margin-top: 50px;
+}
+.yonsei-row {
+    width:100%;
+    height: 300px;
+    padding-top:80px;
+    border-right: 8px solid black;
+}
+.active {
+    color: black;
+}
+.coursework-pills {
+    width: 250px;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-left:50px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.instructions {
+    font-size: 1.2rem;
+}
+.business-tab {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.list-group {
+    width: 90%;
+    font-size: 1.1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.coursework-list {
+    padding:15px !important;
+    background-color: white !important;
+    border: none !important;
+    border-bottom: 2px solid rgba(210, 210, 210, 0.923) !important;
+}
+.bi {
+    margin-left: 10px;
+}
+.bi:hover {
+    color:red;
+}
+.teaching_summary {
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-left:30px;
+    width: 70%;
+}
+.teaching {
+    font-size: 1.1rem !important;
+}
+.teaching_desc {
+    font-size: 1rem !important;
+}
+.teaching-div {
+    height: 100%;
+    background-color: #F7F8F7 !important;
+    color:black;
+    padding-top: 40px;
+}
+#coursework {
+    display: none;
+}
+#international {
+    display: none;
+}
+#teaching {
+    display: none;
+}
+.education-container {
+    padding-top: 50px;
+}
+/* Portfolio Section */
+.portfolio-container {
+    padding-top: 50px;
+}
+.portfolio-inner-tab {
+    height: 500px;
+}
+.portfolio-menu {
+    height: 640px;
+}
+#portfolio-tab {
+    margin-top: 60px;
+}
+.portfolio-button {
+    font-family: 'lato', sans-serif;
+    font-size: 1.3rem;
+    line-height: 40px;
+    font-weight:300;
+    color: black!important;
+    background:none;
+    text-align:left;
+}
+#portfolio {
+    height: 690px;
+}
+.portfolio-button {
+    border-bottom: 5px solid #e4bda5 !important;
+    margin-bottom: 15px;
+    padding-left: 0px !important;
+    padding-bottom:20px !important;
+    line-height: 40px;
+}
+#portfolio-tab .active {
+    background-color:rgb(232, 229, 229);
+    border-bottom: 5px solid black !important;
+}
+.portfolio-right-tab {
+    padding-top: 20px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+.portfolio-nav {
+    font-weight: 300;
+    font-size: 1.3rem;
+    border: 0px;
+    background: none;
+    padding-left:0px;
+    margin-left:15px;
+    padding-bottom:0px;
+    width:80%;
+}
+.portfolio-nav .active {
+    font-weight: 700;
+    background: none !important;
+}
+.portfolio-button:hover {
+    font-weight: 700;
+}
+.portfolio-hr {
+    border: 2.5px solid gray;
+}
+.portfolio-changing-tab {
+    margin-top: 20px;
+}
+.carousel-item {
+    background: none !important;
+}
+.tab-pane {
+    padding: 25px;
+    height: 560px;
+}
+.carousel-buttons {
+    text-align: right;
+}
+.portfolio-desc {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem !important;
+}
+.portfolio-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 1.4rem !important;
+}
+.product-desc {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem !important;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw !important;
+}
+.modal-desc {
+    font-size: 1.1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.modal-second-title {
+    margin-top: 10px;
+}
+.modal_underline {
+    width: 20% !important;
+    margin-left: 25px !important;
+}
+.tech-stack {
+    margin-left: 25px;
+}
+.tech-stack-normal {
+    margin-left: 8px;
+}
+.google-slides-container {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.github {
+    margin-top: 20px;
+}
+/* iFrame CSS */
+iframe[src*="docs.google.com"],
+iframe[src*="youtube.com"]{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+/* Hobbies Section */
+.hobbies-menu {
+    height: 1080px;
+}
+.hobbies-shopee {
+    margin-top: 15px !important;
+    height: 420px !important;
+}
+.hobbies {
+    height: 560px;
+    background-color:#EEF0F3;
+    margin-top: 20px !important;
+}
+.internship-desc {
+    margin-top: 10px;
+    font-weight:300;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.top-hobbies {
+    height: 10%;
+}
+.bottom-hobbies {
+    height: 90%;
+}
+.hobbies-label {
+    background-color: #4353FF;
+    margin-left: 5%;
+}
+.internships {
+    color:white !important;
+    font-size: 1.8rem !important;
+    margin-left: -5px;
+    margin-top: 7px;
+}
+.jobtitle {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem !important;
+    margin-left: 7%;
+    margin-top: 30px;
+}
+.jobdesc {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem !important;
+    margin-left: 7% !important;
+    margin-top: 30px;
+}
+.job_underline {
+    width: 60% !important;
+    margin-left: 6.5% !important;
+    margin-top: 15px !important;
+}
+.joblisting {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1rem !important;
+    margin-left: 7% !important;
+    margin-top: 10px;
+}
+.shopback-photo {
+    margin-top: 100px;
+    margin-left: -15px;
+}
+.shopback-photo:hover {
+    opacity: 50%;
+}
+.shopee-photo {
+    margin-top: 100px;
+    margin-left: 55px;
+}
+.shopee-photo:hover {
+    opacity: 50%;
+}
+.jobtime {
+    margin-left: 10px;
+    font-size: 0.9rem !important;
+}
+.interest_icon:hover {
+    font-size:2em;
+    transition: 0.5s ease-out;
+}
+/* bio */
+.bio {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right:0px;
+    color:black;
+}
+.bio_desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-left:30px;
+}
+.skills-row {
+    padding-top: 10px;
+    padding-right: 40px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.specific-skills-row {
+    padding-left:20px;
+}
+.skills_title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight:500;
+    padding-left:10px;
+    margin-bottom: 30px;
+} 
+.software_title {
+    margin-left:15px;
+}
+.machine-title {
+    margin-left: 35px;
+}
+.skill_desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9rem;
+    font-weight:300;
+    margin-left:25px;
+} 
+.R-left {
+    margin-left: 45px !important;
+}
+.first-skill {
+    padding-left: 55px !important;
+}
+.more-skills{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-left: 10px;
+    background-color: rgba(211, 203, 203, 0.263) !important;
+    color:black;
+    padding: 10px;
+}
+.more-skills:hover {
+    background-color: rgba(109, 105, 105, 0.352) !important;
+}
+.skills-href-remove {
+    margin-right: 40px;
+    margin-top: 40px;
+}
+.biography-container{
+    padding-top: 50px;
+}

@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Google Fonts CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;500;600;700&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ye Jiadong | Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+
+    <!-- Intro Section -->
+    <section class="bgimage" id="about">
+        <div class="container-fluid intro-container">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-11 col-xs-11 intro">
+                    <div class="row inner-row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 intro-1">
+                            <h2 class="intro_name">YE</h2>
+                            <h2 class="intro_name">JIADONG</h2>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 intro-2 g-0">
+                            <div class="photo-box">
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 intro-3">
+                            <h2 class="intro_title">Hello.</h2>
+                            <p class="intro_desc">I am a <strong> data analyst and software engineer </strong> from Singapore. Keen on strategic roles that synergise both Computer Science and Business fields.</p>
+                            <a data-bs-target="#skills" onClick="onLinkClick();" class="btn btn-default skills-href" data-bs-toggle="collapse"><span class="more-skills">Toggle Skills<i class="bi bi-arrow-down-circle-fill"></i></span></a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section class="bgimage collapse" id="skills">
+        <div class="container-fluid skills-container">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-11 col-xs-11 skills-intro">
+                    <div class="row inner-row">
+                      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 education-1 skills-bar">
+                        <button class="intro_desc education_selected education_menu_top" style="font-weight:700;">Skills</button>
+                        <hr class="hr education_menu_underline" style="opacity:100%; border-color:black;;"/>             
+                      </div>
+                      <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 skills-2">
+                        <a data-bs-target="#skills" class="btn btn-default float-end skills-href-remove" data-bs-toggle="collapse"><i class="bi bi-arrow-up-circle-fill more-skills"></i></a>
+                        <h2 class="skills_main_title">Skills</h2>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bio gy-0">
+                            <div class="row skills-row">
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 gy-0 first-skill">
+                                <h4 class="skills_title machine-title">Data Analytics</h4>
+                                <div class="row specific-skills-row">
+                                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 gy-0">
+                                    <div class="row">
+                                      <img src="assets/images/python.png" class="stanford img-fluid rounded" alt="python" style="width:80px;height:50px;">
+                                    </div>
+                                    <div class="row">
+                                      <p class="skill_desc mt-2"> Python </p>
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 gy-0">
+                                    <div class="row">
+                                      <img src="assets/images/R.png" class="stanford img-fluid rounded" alt="python" style="width:80px;height:50px;">
+                                    </div>
+                                    <div class="row">
+                                      <p class="R-left skill_desc mt-2"> R </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 gy-0">
+                                <h4 class="skills_title software_title">Software Engineering </h4>
+                                <div class="row specific-skills-row">
+                                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 gy-0">
+                                    <div class="row">
+                                      <img src="assets/images/frontend.png" class="stanford img-fluid rounded" alt="frontend" style="width:85px;height:55px;">
+                                    </div>
+                                    <div class="row">
+                                      <p class="skill_desc mt-2"> Frontend </p>
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 gy-0">
+                                    <div class="row">
+                                      <img src="assets/images/backend.png" class="stanford img-fluid rounded " alt="backend" style="width:85px;height:55px;">
+                                    </div>
+                                    <div class="row">
+                                      <p class="skill_desc mt-2"> Backend </p>
+                                    </div>
+                                  </div>
+                                </div>                                 
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 gy-0">
+                                <h4 class="skills_title machine-title">Machine Learning </h4>
+                                <div class="row specific-skills-row">
+                                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 gy-0">
+                                    <div class="row">
+                                      <img src="assets/images/gpt.png" class="stanford img-fluid rounded" alt="frontend" style="width:85px;height:55px;">
+                                    </div>
+                                    <div class="row">
+                                      <p class="skill_desc mt-2"> GPT models </p>
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 gy-0">
+                                    <div class="row">
+                                      <img src="assets/images/scikit.png" class="stanford img-fluid rounded " alt="backend" style="width:125px;height:55px;">
+                                    </div>
+                                    <div class="row">
+                                      <p class="skill_desc mt-2"> Decision Models </p>
+                                    </div>
+                                  </div>
+                                </div>   
+                              </div>
+                            </row>
+                            <div class="row skills-extra-row" id="skills-description">
+                                <p class="bio_desc">I have extensive experience working with data in both Python and R on data visualisation, analysis and modelling. I am familiar with major data analytics libraries.
+                                <p class="bio_desc">Occassionally, I build full-stack online platforms using languages such as Vue and Django, and also possess experience with React and PHP. I am also familiar with the microservices architecture deployed on cloud services. </p>
+                                <p class="bio_desc">In my final year thesis, I investigated the abilities of GPT language models, and carried out both prompt-engineering and the fine-tuning of GPT/transformer based language models.</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Education -->
+    <section class="bgimage" id="education">
+      <div class="container-fluid education-container">
+          <div class="row">
+              <div class="col-lg-9 col-md-9 col-sm-11 col-xs-11 intro">
+                  <div class="row inner-row">
+                      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 education-1 gy-0">
+                          <button class="intro_desc education_selected education_menu_top" style="font-weight:700;" onclick = "replace('education')">Degree</button>
+                          <hr class="hr education_menu_underline" style="opacity:100%; border-color:black;;"/>
+                          <button class="intro_desc education_menu" onclick = "replace('international')">International Exposure</button>
+                          <hr class="hr education_menu_underline" />
+                          <button class="intro_desc education_menu" onclick = "replace('coursework')">Coursework</button>
+                          <hr class="hr education_menu_underline" />
+                          <button class="intro_desc education_menu" onclick = "replace('teaching')">Teaching</button>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 education-2 gy-0">
+                          <h2 class="education_title">Education</h2>
+                          <div class="row education-row">
+                              <h3 class="education_year">2019 - 2023</h3>
+                              <p class="education_desc">National University of Singapore.</p>
+                          </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 education-3 gy-0">
+                          <h2 class="intro_title education_degree">Bachelor of Computer Science Honours (Highest Distinction)</h2>
+                          <p class="intro_desc specialisation">Specialisation in Software Engineering and Networking</p>
+                          <hr class="hr" />
+                          <h2 class="intro_title education_degree">Bachelor of Business Administration Honours (Highest Distinction)</h2>
+                          <p class="intro_desc specialisation">Specialisation in Business Analytics</p>
+                          <hr class="hr" />
+                          <h2 class="intro_title education_degree">Minor in Economics</h2>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+    <!-- International section -->
+    <section class="bgimage" id="international">
+        <div class="container-fluid education-container">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-11 col-xs-11 intro int-exposure">
+                    <div class="row inner-row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 education-1">
+                            <button class="intro_desc education_menu education_menu_top" onclick = "replace('education')">Degree</button>
+                            <hr class="hr education_menu_underline" />
+                            <button class="intro_desc education_selected" style="font-weight:700;" onclick = "replace('international')">International Exposure</button>
+                            <hr class="hr education_menu_underline" style="opacity:100%; border-color:black;;"/>
+                            <button class="intro_desc education_menu" onclick = "replace('coursework')">Coursework</button>
+                            <hr class="hr education_menu_underline" />
+                            <button class="intro_desc education_menu" onclick = "replace('teaching')">Teaching</button>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 education-2 gy-0" id="int-exposure">
+                            <h2 class="education_title">International</h2>
+                            <h2 class="education_title">Exposure</h2>
+                            <div class="row stanford-row">
+                                <h3 class="education_year">2022</h3>
+                                <img src="assets/images/stanford-logo.png" class="stanford img-fluid rounded" alt="stanford-ihp" style="width:100px;height:70px;">
+                                <p class="education_desc">Stanford University.</p>
+                            </div>
+                            <div class="row yonsei-row">
+                                <h3 class="education_year">2019 - 2022</h3>
+                                <img src="assets/images/yonsei.png" class="yonsei img-fluid rounded" alt="stanford-ihp" style="width:90px;height:60px;">
+                                <img src="assets/images/koreauni.png" class="korea img-fluid rounded" alt="stanford-ihp" style="width:80px;height:60px;">
+                                <p class="education_desc">Yonsei, Korea University.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 education-3">
+                            <h2 class="intro_title education_degree"><a href="https://summer.stanford.edu/ihp">International Honors Program (IHP)</a></h2>
+                            <p class="intro_desc specialisation">I spent my summer taking two undergraduate modules at Stanford University. I also had the opportunity to stay on campus at Branner Hall.</p>
+                            <p class="intro_desc specialisation"><span class="badge rounded-pill bg-primary coursework">CS161</span> Design and Analysis of Algorithms</p>
+                            <p class="intro_desc specialisation"><span class="badge rounded-pill bg-primary coursework">STATS202</span> Data Mining and Analysis</p>
+
+                            <h2 class="intro_title education_degree winter">Winter School</h2>
+                            <p class="intro_desc specialisation">Two winters were spent at Yonsei, and one at Korea University.</p>
+                            <p class="intro_desc specialisation"><span class="badge rounded-pill bg-primary coursework">IWC112</span> Linear Algebra</p>
+                            <p class="intro_desc specialisation"><span class="badge rounded-pill bg-primary coursework">IEE3593</span> Introduction to Big Data Analysis</p>
+                            <p class="intro_desc specialisation"><span class="badge rounded-pill bg-primary coursework">IEE3293</span> Strategic Management</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Coursework section -->
+    <section class="bgimage" id="coursework">
+        <div class="container-fluid education-container">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-11 col-xs-11 intro">
+                    <div class="row inner-row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 education-1">
+                            <button class="intro_desc education_menu education_menu_top" onclick = "replace('education')">Degree</button>
+                            <hr class="hr education_menu_underline" />
+                            <button class="intro_desc education_menu" onclick = "replace('international')">International Exposure</button>
+                            <hr class="hr education_menu_underline" />
+                            <button class="intro_desc education_menu" style="font-weight:700;" onclick = "replace('coursework')">Coursework</button>
+                            <hr class="hr education_menu_underline" style="opacity:100%; border-color:black;;" />
+                            <button class="intro_desc education_menu" onclick = "replace('teaching')">Teaching</button>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 education-2 gy-0">
+                            <h2 class="education_title">Coursework</h2>
+                            <p class="education_desc instructions">Select a subject to view all courses taken.</p>
+                            <div class="row education-row">
+                                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                    <button class="nav-link active coursework-pills rounded-pill" id="v-pills-business-tab" data-bs-toggle="pill" data-bs-target="#v-pills-business" type="button" role="tab" aria-controls="v-pills-business" aria-selected="true">Business</button>
+                                    <button class="nav-link coursework-pills rounded-pill" id="v-pills-computing-tab" data-bs-toggle="pill" data-bs-target="#v-pills-computing" type="button" role="tab" aria-controls="v-pills-computing" aria-selected="false">Computer Science</button>
+                                    <button class="nav-link coursework-pills rounded-pill" id="v-pills-economics-tab" data-bs-toggle="pill" data-bs-target="#v-pills-economics" type="button" role="tab" aria-controls="v-pills-economics" aria-selected="false">Economics</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 education-3">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active business-tab" id="v-pills-business" role="tabpanel" aria-labelledby="v-pills-business-tab">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="coursework-list list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto" id="dropdownMenuAnalytics" data-bs-toggle="dropdown" aria-expanded="false">
+                                              <div>Analytics and Operations
+                                                <i class="bi bi-arrow-right-circle"></i>
+                                              </div>
+                                            </div>    
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuAnalytics">
+                                              <li><button class="dropdown-item" type="button">DAO1704 - Decision Analysis using Spreadsheets</button></li>
+                                              <li><button class="dropdown-item" type="button">DAO2703 - Operations and Tech Management</button></li>
+                                              <li><button class="dropdown-item" type="button">DAO2702 - Programming for Business Analytics</button></li>
+                                              <li><button class="dropdown-item" type="button">DBA3702 - Descriptive Analytics with R</button></li>
+                                              <li><button class="dropdown-item" type="button">DBA3803 - Predictive Analytics in Business</button></li>
+                                              <li><button class="dropdown-item" type="button">IT3010 - Data Management for Business Analytics</button></li>
+                                              <li><button class="dropdown-item" type="button">DBA4811 - Analytical tools for Consulting</button></li>
+                                            </ul>
+                                            <span class="badge bg-primary rounded-pill">7 modules</span>
+                                          </li>
+                                        <li class="coursework-list list-group-item d-flex justify-content-between align-items-start">
+                                          <div class="ms-2 me-auto" id="dropdownMenuMarketing" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div>Marketing and Management
+                                                <i class="bi bi-arrow-right-circle"></i>
+                                            </div>
+                                          </div>
+                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuMarketing">
+                                            <li><button class="dropdown-item" type="button">MKT1705C - Principles of Marketing</button></li>
+                                            <li><button class="dropdown-item" type="button">MNO1706E - Organisational Behaviour</button></li>
+                                            <li><button class="dropdown-item" type="button">MNO2705D - Leadership and Decision Making under Uncertainty</button></li>
+                                            <li><button class="dropdown-item" type="button">BSP3701 - Strategic Management</button></li>
+                                          </ul>
+                                          <span class="badge bg-primary rounded-pill">4 modules</span>
+                                        </li>
+                                        <li class="coursework-list list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto" id="dropdownMenuFinance" data-bs-toggle="dropdown" aria-expanded="false">
+                                              <div>Accounting and Finance
+                                                <i class="bi bi-arrow-right-circle"></i>
+                                              </div>
+                                            </div>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuFinance">
+                                              <li><button class="dropdown-item" type="button">ACC1701 - Accounting for Decision Makers</button></li>
+                                              <li><button class="dropdown-item" type="button">FIN2704 - Finance</button></li>
+                                            </ul>
+                                            <span class="badge bg-primary rounded-pill">2 modules</span>
+                                          </li>
+                                        <li class="coursework-list list-group-item d-flex justify-content-between align-items-start">
+                                          <div class="ms-2 me-auto" id="dropdownMenuStrategy" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div>Strategy and Policy
+                                                <i class="bi bi-arrow-right-circle"></i>
+                                            </div>
+                                          </div>
+                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuStrategy">
+                                            <li><button class="dropdown-item" type="button">BSP1702 - Legal Environment of Business</button></li>
+                                            <li><button class="dropdown-item" type="button">BSP1703 - Managerial Economics</button></li>
+                                            <li><button class="dropdown-item" type="button">BSP2701 - Global Economy</button></li>
+                                          </ul>
+                                          <span class="badge bg-primary rounded-pill">3 modules</span>
+                                        </li>
+                                        <li class="coursework-list list-group-item d-flex justify-content-between align-items-start">
+                                          <div class="ms-2 me-auto" id="dropdownMenuOthers" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div>Other Modules Required for Business
+                                                <i class="bi bi-arrow-right-circle"></i>
+                                            </div>
+                                          </div>
+                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuOthers">
+                                            <li><button class="dropdown-item" type="button">RE1901 - Real Estate Wealth Management</button></li>
+                                            <li><button class="dropdown-item" type="button">ES2002 - Business Communication for Leaders</button></li>
+                                            <li><button class="dropdown-item" type="button">FSP4003 - Field Service Project</button></li>
+                                          </ul>
+                                          <span class="badge bg-primary rounded-pill">2 modules</span>
+                                        </li>
+                                      </ol>
+                                    
+                                </div>
+                                <div class="tab-pane fade computing-tab" id="v-pills-computing" role="tabpanel" aria-labelledby="v-pills-computing-tab">
+                                        <ol class="list-group list-group-numbered">
+                                        <li class="coursework-list list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto" id="dropdownMenuCore" data-bs-toggle="dropdown" aria-expanded="false">
+                                              <div>Core Modules
+                                                <i class="bi bi-arrow-right-circle"></i>
+                                              </div>
+                                            </div>    
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuCore">
+                                              <li><button class="dropdown-item" type="button">CS1101S - Programming Methodology</button></li>
+                                              <li><button class="dropdown-item" type="button">CS1101R - Programming Methodology</button></li>
+                                              <li><button class="dropdown-item" type="button">CS1231S - Discrete Structures</button></li>
+                                              <li><button class="dropdown-item" type="button">CS2030 - Programming Methodology II</button></li>
+                                              <li><button class="dropdown-item" type="button">CS2040S - Data Structures and Algorithms</button></li>
+                                              <li><button class="dropdown-item" type="button">CS2100 - Computer Organisation</button></li>
+                                              <li><button class="dropdown-item" type="button">CS2106 - Introduction to Operating Systems</button></li>
+                                              <li><button class="dropdown-item" type="button">CS3203 - Software Engineering Project</button></li>
+                                              <li><button class="dropdown-item" type="button">CS3230 - Design and Analysis of Algorithms</button></li>
+                                              <li><button class="dropdown-item" type="button">IS1103 - Ethics in Computing</button></li>
+                                              <li><button class="dropdown-item" type="button">ES2660 - Communicating in the Information Age</button></li>
+                                              <li><button class="dropdown-item" type="button">XFC4101 - Integrated Honours Thesis</button></li>
+                                            </ul>
+                                            <span class="badge bg-primary rounded-pill">12</span>
+                                          </li>
+                                        <li class="coursework-list list-group-item d-flex justify-content-between align-items-start">
+                                          <div class="ms-2 me-auto" id="dropdownMenuMarketing" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div>Software Engineering Specialisation
+                                                <i class="bi bi-arrow-right-circle"></i>
+                                            </div>
+                                          </div>
+                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuMarketing">
+                                            <li><button class="dropdown-item" type="button">CS2103 - Software Engineering</button></li>
+                                            <li><button class="dropdown-item" type="button">CS3219 - Sofwtware Engineering Principles and Patterns </button></li>
+                                            <li><button class="dropdown-item" type="button">CS4218 - Software Testing</button></li>
+                                          </ul>
+                                          <span class="badge bg-primary rounded-pill">3</span>
+                                        </li>
+                                        <li class="coursework-list list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto" id="dropdownMenuFinance" data-bs-toggle="dropdown" aria-expanded="false">
+                                              <div>Networking Specialisation
+                                                <i class="bi bi-arrow-right-circle"></i>
+                                              </div>
+                                            </div>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuFinance">
+                                              <li><button class="dropdown-item" type="button">CS2105 - Introduction to Computer Networks</button></li>
+                                              <li><button class="dropdown-item" type="button">CS3203 - Computer Networks Practice</button></li>
+                                              <li><button class="dropdown-item" type="button">CS4226 - Internet Architecture</button></li>
+                                            </ul>
+                                            <span class="badge bg-primary rounded-pill">3</span>
+                                          </li>
+                                        <li class="coursework-list list-group-item d-flex justify-content-between align-items-start">
+                                          <div class="ms-2 me-auto" id="dropdownMenuMath" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div>Math and Science Modules
+                                                <i class="bi bi-arrow-right-circle"></i>
+                                            </div>
+                                          </div>
+                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuMath">
+                                            <li><button class="dropdown-item" type="button">MA1521 - Calculus for Computing</button></li>
+                                            <li><button class="dropdown-item" type="button">MA1101R - Linear Algebra</button></li>
+                                            <li><button class="dropdown-item" type="button">ST2334 - Probability and Statistics</button></li>
+                                          </ul>
+                                          <span class="badge bg-primary rounded-pill">3</span>
+                                        </li>
+                                        <li class="coursework-list list-group-item d-flex justify-content-between align-items-start">
+                                          <div class="ms-2 me-auto" id="dropdownMenuGeneral" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div>Other General Education Modules
+                                                <i class="bi bi-arrow-right-circle"></i>
+                                            </div>
+                                          </div>
+                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuGeneral">
+                                            <li><button class="dropdown-item" type="button">GEH1030 - Science of Music</button></li>
+                                            <li><button class="dropdown-item" type="button">GET1023 - Thinking like an Economist</button></li>
+                                            <li><button class="dropdown-item" type="button">GEQ1000 - Asking Questions</button></li>
+                                            <li><button class="dropdown-item" type="button">GER1000 - Quantitative Reasoning</button></li>
+                                            <li><button class="dropdown-item" type="button">GES1021 - Natural Heritage of Singapore</button></li>
+                                          </ul>
+                                          <span class="badge bg-primary rounded-pill">5</span>
+                                        </li>
+                                      </ol>
+                                     </div>
+                                     <div class="tab-pane fade economics-tab" id="v-pills-economics" role="tabpanel" aria-labelledby="v-pills-economics-tab">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <p class="intro_desc specialisation">Modules taken to fulfill the requirements of the Economics minor:</p>
+                                            <h2 class="intro_title education_degree">EC2101</h2>
+                                            <p class="intro_desc specialisation">Microeconomic Analysis I</p>
+                                            <hr class="hr" />
+                                            <h2 class="intro_title education_degree">EC2383</h2>
+                                            <p class="intro_desc specialisation">Environmental Economics</p>
+                                            <hr class="hr" />
+                                            <h2 class="intro_title education_degree">EC3305R</h2>
+                                            <p class="intro_desc specialisation">Economic Data Analysis with R Programming</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Teaching -->
+    <section class="bgimage" id="teaching">
+        <div class="container-fluid education-container">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-11 col-xs-11 intro">
+                    <div class="row inner-row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 education-1">
+                            <button class="intro_desc education_menu education_menu_top" onclick = "replace('education')">Degree</button>
+                            <hr class="hr education_menu_underline" />
+                            <button class="intro_desc education_menu" onclick = "replace('international')">International Exposure</button>
+                            <hr class="hr education_menu_underline" />
+                            <button class="intro_desc education_menu" onclick = "replace('coursework')">Coursework</button>
+                            <hr class="hr education_menu_underline" />
+                            <button class="intro_desc education_menu" style="font-weight:700;" onclick = "replace('teaching')">Teaching</button>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 education-2 gy-0">
+                            <h2 class="education_title">Teaching</h2>
+                            <div class="row education-row">
+                                <p class="teaching_summary">I was a teaching assistant for some modules in both Computer Science and Business school.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 teaching-div">
+                            <h2 class="intro_title teaching">CS2030S - Programming Methodology II</h2>
+                            <p class="intro_desc teaching_desc">This was my first experience conducting a lab for an introductory Java programming module.</p>
+                            <hr class="hr" />
+                            <h2 class="intro_title teaching">CS2106 - Operating Systems</h2>
+                            <p class="intro_desc teaching_desc">I taught an operating systems lab together with <a href='https://www.linkedin.com/in/bernard-teo/?originalSubdomain=sg'> Bernard Teo </a>. </p>
+                            <hr class="hr" />
+                            <h2 class="intro_title teaching">CS3219 - Software Engineering</h2>
+                            <p class="intro_desc teaching_desc">I taught a software engineering tutorial together with <a href='https://www.linkedin.com/in/azeemvasanwala/?originalSubdomain=sg'> Azeem Vasanwala </a>. </p>
+                            <hr class="hr" />
+                            <h2 class="intro_title teaching">DBA3702 - Descriptive Analytics in R</h2>
+                            <p class="intro_desc teaching_desc">I facilitated and graded assignments in a R module. </p>
+                            <hr class="hr" />
+                            <h2 class="intro_title teaching">CS4218 - Software Testing</h2>
+                            <p class="intro_desc teaching_desc">I taught a software testing lab during my final semester in school. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio section -->
+    <section class="bgimage" id="portfolio">
+        <div class="container-fluid portfolio-container">
+            <div class="row portfolio-row">
+                <div class="col-lg-9 col-md-9 col-sm-11 col-xs-11 intro portfolio-menu">
+                    <div class="row inner-row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 intro-1">
+
+                            <ul class="nav nav-pills mb-3" id="portfolio-tab" role="tablist">
+                              <li class="nav-item portfolio-nav" role="presentation">
+                                <button class="nav-link active portfolio-button intro_title" id="software-tab" data-bs-toggle="pill" data-bs-target="#software" type="button" role="tab" aria-controls="software" aria-selected="true">Software Engineering</button>
+                              </li>
+                              <li class="nav-item portfolio-nav" role="presentation">
+                                <button class="nav-link portfolio-button intro_title" id="data-tab" data-bs-toggle="pill" data-bs-target="#data" type="button" role="tab" aria-controls="data" aria-selected="false">Data Analytics</button>
+                              </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 intro-3 portfolio-right-tab">
+                            <div class="tab-content portfolio-changing-tab" id="myTabContent">
+                              <h2 class="intro_name intro-no-margin">Project Examples</h2>
+                              <div class="tab-pane fade show active" id="software" role="tabpanel" aria-labelledby="software-tab">
+                                    <div class="row">
+                                      <div class="col-10">
+                                        <p class="mb-3 portfolio-desc"> Many of these projects were done in an academic setting in university. </p>
+                                      </div>
+                                      <div class="col-2 carousel-buttons">
+                                        <a class="btn btn-primary mb-3 mr-1" data-bs-target="#carouselExampleIndicators2" type="button" data-bs-slide="prev">
+                                          <i class="fa fa-arrow-left"></i>
+                                        </a>
+                                        <a class="btn btn-primary mb-3 " data-bs-target="#carouselExampleIndicators2" type="button" data-bs-slide="next">
+                                          <i class="fa fa-arrow-right"></i>
+                                        </a>
+                                      </div>
+                                      <div class="col-12">
+                                        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                
+                                          <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                              <div class="row">
+                                
+                                                <div class="col-md-6 mb-3">
+                                                  <div class="card">
+                                                    <img class="img-fluid card-img-top " src="assets/images/sociasg.png">
+                                                    <div class="card-body">
+                                                      <h4 class="card-title portfolio-title">Sociasg</h4>
+                                                      <p class="card-text product-desc">Web application conceptualised for the Codefiesta 2021 hackathon.</p>
+                                                      <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#sociasg">View More</button>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <!-- Modal Sociasg-->
+                                                <div class="modal fade" id="sociasg" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="sociasgLabel" aria-hidden="true">
+                                                  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                                                    <div class="modal-content">
+                                                      <div class="modal-header">
+                                                        <h2 class="modal-title intro_name" id="staticBackdropLabel">Sociasg</h2>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <h2 class="intro_title teaching">Objective</h2>
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <p class="modal-desc">
+                                                          <mark><strong>Web application</strong></mark> enabling <mark><strong>overseas Singaporeans</strong></mark> to <mark><strong>find communities</strong></mark>
+                                                          centred around a <mark><strong>common interest.</strong></mark> Users participate in events organised on the platform which are based 
+                                                          on shared hobbies, and through doing so, form friendships through meaningful shared experiences and 
+                                                          sustained interaction.
+                                                        </p>
+                                                        <h2 class="intro_title teaching">Google slides</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <div class="google-slides-container">
+                                                          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ0QS8ptMSvDwNpB4Bx8472p6Gmg7YFDFzH5Ktxe4UxzK11-puCAPrR9sTMM6ElqqqKu5SNRSkwBDlG/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                                                        </div>
+                                                        <h2 class="intro_title modal-second-title teaching">Demo Video</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <div class="google-slides-container">
+                                                          <iframe width="560" height="315" src="https://www.youtube.com/embed/OVOB0lqMlNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                                        </div>
+                                                        <h2 class="intro_title modal-second-title teaching">Key Tech Stack</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <h5><span class="badge bg-primary rounded-pill tech-stack">PHP</span><span class="badge bg-secondary rounded-pill tech-stack-normal">MySQL</span><span class="badge bg-success rounded-pill tech-stack-normal">Javascript</span></h5>
+                                                      </div>
+                                                      <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                  <div class="card">
+                                                    <img class="img-fluid card-img-top " src="assets/images/peerprep.png">
+                                                    <div class="card-body">
+                                                      <h4 class="card-title portfolio-title">PeerPrep</h4>
+                                                      <p class="card-text product-desc">Real-time peer-programming practice system for the CS3219 software course.</p>
+                                                      <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#peerprogramming">View More</button>
+                                
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <!-- Modal Peer-Programming-->
+                                                <div class="modal fade" id="peerprogramming" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="peerProgrammingLabel" aria-hidden="true">
+                                                  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                                                    <div class="modal-content">
+                                                      <div class="modal-header">
+                                                        <h2 class="modal-title intro_name" id="staticBackdropLabel">PeerPrep</h2>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <h2 class="intro_title teaching">Objective</h2>
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <p class="modal-desc">
+                                                          <mark><strong>Web application</strong></mark> that <mark><strong>matches students </mark></strong>and enables real-time solving of <mark><strong>technical interview questions</strong></mark> 
+                                                          to allow students to tackle common algorithmic coding problems together.
+                                                        </p>
+                                                        <h2 class="intro_title teaching">Google slides</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <div class="google-slides-container">
+                                                          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSl7KhdoUl7w0L0jqI7NVQ4Wl5ghYjldCfcET1312Snv5_uECgosYsLUl5NooxyxA/embed?start=false&loop=false&delayms=30000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                                                        </div>
+                                                        <h2 class="intro_title modal-second-title teaching">Demo Video</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <div class="google-slides-container">
+                                                          <iframe width="560" height="315" src="https://www.youtube.com/embed/7MXiDMZXg-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                                        </div>
+                                                        <h2 class="intro_title modal-second-title teaching">Key Tech Stack</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <h5><span class="badge bg-primary rounded-pill tech-stack">Vue and Boostrap</span><span class="badge bg-secondary rounded-pill tech-stack-normal">Firebase and PostgreSQL</span><span class="badge bg-dark rounded-pill tech-stack-normal">AWS Services</span><span class="badge bg-success rounded-pill tech-stack-normal">Django</span></h5>
+                                                      </div>
+                                                      <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            
+                                            
+                                            <div class="carousel-item">
+                                              <div class="row">
+                                                <div class="col-md-6 mb-3">
+                                                  <div class="card">
+                                                    <img class="img-fluid card-img-top" src="assets/images/canoecoach.png">
+                                                    <div class="card-body">
+                                                      <h4 class="card-title portfolio-title">CanoE-COACH</h4>
+                                                      <p class="card-text product-desc">Managing canoeing training schedules for the CS2103 software course.</p>
+                                                      <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#canoe">View More</button>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                                <!-- Modal Canoe-Coach-->
+                                                <div class="modal fade" id="canoe" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="canoeLabel" aria-hidden="true">
+                                                  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                                                    <div class="modal-content">
+                                                      <div class="modal-header">
+                                                        <h2 class="modal-title intro_name" id="staticBackdropLabel">CanoE-COACH</h2>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <h2 class="intro_title teaching">Objective</h2>
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <p class="modal-desc">
+                                                          <mark><strong>Desktop application</strong></mark> enabling <mark><strong>management of training schedules</mark></strong>
+                                                          for <mark><strong>secondary school canoe teams</strong></mark> via both the Command Line Interface and a Graphical Interface.
+                                                        </p>
+                                                        <h2 class="intro_title teaching">User Guide</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <div class="google-slides-container">
+                                                          <iframe src="https://ay2021s1-cs2103-f10-1.github.io/tp/UserGuide.html" width="720" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                                                        </div>
+                                                        <h2 class="intro_title modal-second-title teaching">Developer Guide</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <div class="google-slides-container">
+                                                          <iframe src="https://ay2021s1-cs2103-f10-1.github.io/tp/DeveloperGuide.html" width="720" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+                                                          </iframe>
+                                                        </div>
+                                                        <h2 class="intro_title modal-second-title teaching">Key Tech Stack</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <h5><span class="badge bg-primary rounded-pill tech-stack">Java</span></h5>
+                                                        <h2 class="intro_title modal-second-title teaching github">GitHub Repo</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <button type="button" onclick="window.open('https://github.com/yejiadong/tp','_blank');" class="btn btn-sm btn-outline-dark tech-stack">
+                                                          View Repo<i class="bi bi-arrow-right"></i>
+                                                        </button>
+                                                      </div>
+                                                      <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                                <div class="col-md-6 mb-3">
+                                                  <div class="card">
+                                                    <img class="img-fluid card-img-top" src="assets/images/spa.png">
+                                                    <div class="card-body">
+                                                      <h4 class="card-title portfolio-title">Static Program Analyser</h4>
+                                                      <p class="card-text product-desc">Parse and run specific commands for the CS3203 software project.</p>
+                                                      <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#spa">View More</button>
+                                                    </div>
+                                                  </div>
+
+                                                <!-- Modal SPA-->
+                                                <div class="modal fade" id="spa" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="spaLabel" aria-hidden="true">
+                                                  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                                                    <div class="modal-content">
+                                                      <div class="modal-header">
+                                                        <h2 class="modal-title intro_name" id="staticBackdropLabel">Static Program Analyzer</h2>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <h2 class="intro_title teaching">Objective</h2>
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <p class="modal-desc">
+                                                          <mark><strong>Static program analyzer</strong></mark> built to <mark><strong>understand a simple source grammar</mark></strong>
+                                                          and answer <mark><strong>queries about source programs.</strong></mark> 
+                                                        </p>
+                                                        <h2 class="intro_title teaching">Google Slides</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <div class="google-slides-container">
+                                                          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSCqMBa6laVqNL7fScCfhkePfRLe8VGaBXXbpSxy2ATnRj0mfWyc3o9wO-pDVbyJilgTl8V10y0fcvi/embed?start=false&loop=false&delayms=30000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                                                        </div>
+                                                        <h2 class="intro_title modal-second-title teaching">Development Report</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <div class="google-slides-container">
+                                                          <iframe src="assets/pdf/cs3203.pdf" width="100%" height="700px">
+                                                          </iframe>
+                                                        </div>
+                                                        <h2 class="intro_title modal-second-title teaching">Key Tech Stack</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <h5><span class="badge bg-primary rounded-pill tech-stack">C++</span></h5>
+                                                      </div>
+                                                      <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                                </div>                
+                                              </div>
+                                            </div>   
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                              </div>
+                              <div class="tab-pane fade" id="data" role="tabpanel" aria-labelledby="data-tab">
+                                <div class="row">
+                                  <div class="col-10">
+                                    <p class="mb-3 portfolio-desc"> Many of these projects were done in an academic setting in university. </p>
+                                  </div>
+                                  <div class="col-2 carousel-buttons">
+                                    <a class="btn btn-primary mb-3 mr-1" data-bs-target="#carouselIndicatorsData" type="button" data-bs-slide="prev">
+                                      <i class="fa fa-arrow-left"></i>
+                                    </a>
+                                    <a class="btn btn-primary mb-3 " data-bs-target="#carouselIndicatorsData" type="button" data-bs-slide="next">
+                                      <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <div class="col-12">
+                                    <div id="carouselIndicatorsData" class="carousel slide" data-ride="carousel">
+                            
+                                      <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                          <div class="row">
+                            
+                                            <div class="col-md-6 mb-3">
+                                              <div class="card">
+                                                <img class="img-fluid card-img-top " src="assets/images/decrypt.png">
+                                                <div class="card-body">
+                                                  <h4 class="card-title portfolio-title">Decrypt</h4>
+                                                  <p class="card-text product-desc">Real-time visualisation app built on R that actively crawls and analyzes cryptocurrency sentiments from Twitter and Reddit.</p>
+                                                  <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#decrypt">View More</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <!-- Modal Decrypt-->
+                                            <div class="modal fade" id="decrypt" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="decryptLabel" aria-hidden="true">
+                                              <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <h2 class="modal-title intro_name" id="staticBackdropLabel">Decrypt</h2>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                  </div>
+                                                  <div class="modal-body">
+                                                    <h2 class="intro_title teaching">Objective</h2>
+                                                    <hr class="hr education_menu_underline modal_underline" />
+                                                    <p class="modal-desc">
+                                                      <mark><strong>Web application</strong></mark> providing <mark><strong>cryptocurrency technical and sentiment analysis capabilities</strong></mark> to users to enable them to make better <mark><strong>investment decisions.</strong></mark>
+                                                    </p>
+                                                    <h2 class="intro_title teaching">Report</h2> 
+                                                    <hr class="hr education_menu_underline modal_underline" />
+                                                    <div class="google-slides-container">
+                                                      <iframe src="assets/pdf/dba3702.html" width="100%" height="700px"></iframe>
+                                                    </div>
+                                                    <h2 class="intro_title modal-second-title teaching">Presentation Video</h2> 
+                                                    <hr class="hr education_menu_underline modal_underline" />
+                                                    <div class="google-slides-container">
+                                                      <iframe width="560" height="315" src="https://www.youtube.com/embed/OCoKZjOUEMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                                    </div>
+                                                    <h2 class="intro_title modal-second-title teaching">Key Tech Stack</h2> 
+                                                    <hr class="hr education_menu_underline modal_underline" />
+                                                    <h5><span class="badge bg-primary rounded-pill tech-stack">R Shiny App</span></h5>
+                                                    <h2 class="intro_title modal-second-title teaching github">GitHub Repo</h2> 
+                                                    <hr class="hr education_menu_underline modal_underline" />
+                                                    <button type="button" onclick="window.open('https://github.com/yejiadong/decrypt','_blank');" class="btn btn-sm btn-outline-dark tech-stack">
+                                                      View Repo<i class="bi bi-arrow-right"></i>
+                                                    </button>
+                                                  </div>
+                                                  <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                              <div class="card">
+                                                <img class="img-fluid card-img-top " src="assets/images/kickstarter.png">
+                                                <div class="card-body">
+                                                  <h4 class="card-title portfolio-title">Kickstarter</h4>
+                                                  <p class="card-text product-desc">Factors that influence creators' success rates on the Kickstarter platform. </p>
+                                                  <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#kickstarter">View More</button>
+                            
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <!-- Modal Kickstarter-->
+                                            <div class="modal fade" id="kickstarter" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="kickstarterLabel" aria-hidden="true">
+                                              <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <h2 class="modal-title intro_name" id="staticBackdropLabel">Kickstarter</h2>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                  </div>
+                                                  <div class="modal-body">
+                                                    <h2 class="intro_title teaching">Objective</h2>
+                                                    <hr class="hr education_menu_underline modal_underline" />
+                                                    <p class="modal-desc">
+                                                      <mark><strong>Regression and forest models</strong></mark> that <mark><strong>identify factors </mark></strong>that enable the success of Kickstarter funding projects.
+                                                    </p>
+                                                    <h2 class="intro_title teaching">Presentation slides</h2> 
+                                                    <hr class="hr education_menu_underline modal_underline" />
+                                                    <div class="google-slides-container">
+                                                      <iframe src="assets/pdf/kickstarter.pdf" width="100%" height="700px"></iframe>
+                                                    </div>
+                                                    <h2 class="intro_title modal-second-title teaching">Presentation Video</h2> 
+                                                    <hr class="hr education_menu_underline modal_underline" />
+                                                    <div class="google-slides-container">
+                                                      <iframe width="560" height="315" src="https://www.youtube.com/embed/O4QvOkM7pUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                                    </div>
+                                                    <h2 class="intro_title modal-second-title teaching">Key Tech Stack</h2> 
+                                                    <hr class="hr education_menu_underline modal_underline" />
+                                                    <h5><span class="badge bg-primary rounded-pill tech-stack">Python</span><span class="badge bg-primary rounded-pill tech-stack-normal">R</span></h5>
+                                                  </div>
+                                                  <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                            <div class="carousel-item">
+                                              <div class="row">
+                                                <div class="col-md-6 mb-3">
+                                                  <div class="card">
+                                                    <img class="img-fluid card-img-top " src="assets/images/hubway.png">
+                                                    <div class="card-body">
+                                                      <h4 class="card-title portfolio-title">Hubway</h4>
+                                                      <p class="card-text product-desc">Data-driven market segmentation to draw insights for a coherent user expansion strategy.</p>
+                                                      <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#hubway">View More</button>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <!-- Modal Hubway-->
+                                                <div class="modal fade" id="hubway" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="hubwayLabel" aria-hidden="true">
+                                                  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                                                    <div class="modal-content">
+                                                      <div class="modal-header">
+                                                        <h2 class="modal-title intro_name" id="staticBackdropLabel">Hubway</h2>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <h2 class="intro_title teaching">Objective</h2>
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <p class="modal-desc">
+                                                          <mark><strong>Conducting market segmentation</strong></mark> in order to draw insights for Hubway's <mark><strong>user expansion strategy.</mark></strong> Hubway, now Bluebikes is a bike-sharing service based in Boston, USA.
+                                                        </p>
+                                                        <h2 class="intro_title teaching">Presentation slides</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <div class="google-slides-container">
+                                                          <iframe src="assets/pdf/hubway.pdf" width="100%" height="700px"></iframe>
+                                                        </div>
+                                                        <h2 class="intro_title modal-second-title teaching">Key Tech Stack</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <h5><span class="badge bg-primary rounded-pill tech-stack">Python</span> <span class="badge bg-secondary rounded-pill tech-stack-normal">R</span></h5>
+                                                      </div>
+                                                      <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                  <div class="card">
+                                                    <img class="img-fluid card-img-top " src="assets/images/airfare.png">
+                                                    <div class="card-body">
+                                                      <h4 class="card-title portfolio-title">Singapore Airlines</h4>
+                                                      <p class="card-text product-desc">Predicting the airfare product purchased by customers and its implication for pricing strategies.</p>
+                                                      <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#airfare">View More</button>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <!-- Modal Airfare-->
+                                                <div class="modal fade" id="airfare" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="airfareLabel" aria-hidden="true">
+                                                  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                                                    <div class="modal-content">
+                                                      <div class="modal-header">
+                                                        <h2 class="modal-title intro_name" id="staticBackdropLabel">Singapore Airlines</h2>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <h2 class="intro_title teaching">Objective</h2>
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <p class="modal-desc">
+                                                          Using decision trees and random forests to <mark><strong>optimize revenue for Singapore Airlines by predicting airfare products </strong></mark> customers will purchase in a<mark><strong>dynamic pricing environment.</mark></strong> 
+                                                        </p>
+                                                        <h2 class="intro_title teaching">Presentation slides</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <div class="google-slides-container">
+                                                          <iframe src="assets/pdf/airfare.pdf" width="100%" height="700px"></iframe>
+                                                        </div>
+                                                        <h2 class="intro_title modal-second-title teaching">Key Tech Stack</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <h5><span class="badge bg-primary rounded-pill tech-stack">Python</span> <span class="badge bg-secondary rounded-pill">R</span></h5>
+                                                      </div>
+                                                      <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>                                                                                          
+                                              </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                              <div class="row">
+                                                <div class="col-md-6 mb-3">
+                                                  <div class="card">
+                                                    <img class="img-fluid card-img-top " src="assets/images/newsvendor.png">
+                                                    <div class="card-body">
+                                                      <h4 class="card-title portfolio-title">Supply Chain</h4>
+                                                      <p class="card-text product-desc">Optimising procurement by planning for the supply of food to reduce total costs​.</p>
+                                                      <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#newsvendor">View More</button>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <!-- Modal Newsvendor-->
+                                                <div class="modal fade" id="newsvendor" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="newsvendorLabel" aria-hidden="true">
+                                                  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                                                    <div class="modal-content">
+                                                      <div class="modal-header">
+                                                        <h2 class="modal-title intro_name" id="staticBackdropLabel">Supply Chain</h2>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <h2 class="intro_title teaching">Objective</h2>
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <p class="modal-desc">
+                                                          <mark><strong>Planning for the supply of raw ingredients by</strong></mark> forecasting demand and relying on an inventory model to make <mark><strong>the lowest cost procurement decisions.</mark></strong>
+                                                        </p>
+                                                        <h2 class="intro_title teaching">Presentation slides</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <div class="google-slides-container">
+                                                          <iframe src="assets/pdf/newsvendor.pdf" width="100%" height="700px"></iframe>
+                                                        </div>
+                                                        <h2 class="intro_title modal-second-title teaching">Key Tech Stack</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <h5><span class="badge bg-primary rounded-pill tech-stack">Python</span> <span class="badge bg-secondary rounded-pill tech-stack-normal">R</span></h5>
+                                                      </div>
+                                                      <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                  <div class="card">
+                                                    <img class="img-fluid card-img-top " src="assets/images/diabetes.png">
+                                                    <div class="card-body">
+                                                      <h4 class="card-title portfolio-title">Diabetes Care Prediction</h4>
+                                                      <p class="card-text product-desc">Predict quality of diabetes care in a healthcare system.</p>
+                                                      <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#diabetes">View More</button>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <!-- Modal Diabetes-->
+                                                <div class="modal fade" id="diabetes" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="diabetesLabel" aria-hidden="true">
+                                                  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                                                    <div class="modal-content">
+                                                      <div class="modal-header">
+                                                        <h2 class="modal-title intro_name" id="staticBackdropLabel">Diabetes Care Prediction</h2>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <h2 class="intro_title teaching">Objective</h2>
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <p class="modal-desc">
+                                                          Using logistic regression to <mark><strong>predict quality of diabetes care in a healthcare system </strong></mark> to provide appropriate medical intervention to ​<mark><strong>patients receiving poor care.</mark></strong> 
+                                                        </p>
+                                                        <h2 class="intro_title teaching">Presentation slides</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <div class="google-slides-container">
+                                                          <iframe src="assets/pdf/diabetes.pdf" width="100%" height="700px"></iframe>
+                                                        </div>
+                                                        <h2 class="intro_title modal-second-title teaching">Key Tech Stack</h2> 
+                                                        <hr class="hr education_menu_underline modal_underline" />
+                                                        <h5><span class="badge bg-primary rounded-pill tech-stack">Python</span> <span class="badge bg-secondary rounded-pill">R</span></h5>
+                                                      </div>
+                                                      <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>                                                                                          
+                                              </div>
+                                            </div>                                           
+                                          </div>
+                                        </div>  
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Internships -->
+    <section class="bgimage" id="internships">
+      <div class="container-fluid portfolio-container">
+          <div class="row portfolio-row">
+              <div class="col-lg-9 col-md-9 col-sm-11 col-xs-11 intro hobbies-menu">
+                  <div class="row inner-row">
+                      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 intro-1">
+                      </div>
+                      <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 intro-3 portfolio-right-tab">
+                        <h2 class="intro_name intro-no-margin">Internship Experiences</h2>
+                        <div class="row hobbies">
+                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="row top-hobbies">
+                              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hobbies-label">
+                                <h2 class="intro_name internships text-center">SHOPBACK</h2>
+                              </div>
+                            </div>
+                            <div class="row bottom-hobbies">
+                              <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                <h5 class="jobtitle">Project Management / Talent Acquisition <span class="badge rounded-pill bg-primary jobtime">2019 Feb - Jul</span></h5>
+                                <hr class="hr education_menu_underline job_underline" />
+                                <p class="jobdesc">
+                                  I interned under ShopBack's Chief Commercial Officer - <a href="https://www.linkedin.com/in/candice-ong-17261b9?originalSubdomain=sg" target="_blank">Candice Ong</a>.
+                                </p>
+                                <ul class="list-group list-group-flush joblisting">
+                                  <li class="list-group-item">Drove end-to-end recruitment of talent for entry to high-level functions, and devised hiring workflows to meet ambitious hiring targets</li>
+                                  <li class="list-group-item">Programmed and deployed prototype for the company's new coupon product</li>
+                                  <li class="list-group-item">Revamped marketing spreadsheets to improve clarity and efficiency of tracking commission targets by automating preivously manual processes </li>
+                                  <li class="list-group-item">Carried out extensive Competitor and Merchant Analysis to better predict trends and forge successful brand partnerships</li>
+                                </ul>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 hobby-photo">
+                                <a target="_blank" href="https://www.shopback.sg/"><img src="assets/images/shopback.png" class="img-fluid rounded shopback-photo" alt="shopback"></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row hobbies hobbies-shopee">
+                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="row top-hobbies">
+                              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hobbies-label">
+                                <h2 class="intro_name internships text-center">SHOPEE</h2>
+                              </div>
+                            </div>
+                            <div class="row bottom-hobbies">
+                              <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                <h5 class="jobtitle">Regional Operations <span class="badge rounded-pill bg-primary jobtime">2021 Summer</span> </h5>
+                                <hr class="hr education_menu_underline job_underline" />
+                                <p class="jobdesc">
+                                  I interned under Shopee's Operations Associate - <a href="https://www.linkedin.com/in/nat-tientrakul/?originalSubdomain=sg" target="_blank">Nat Tientrakul</a>.
+                                </p>
+                                <ul class="list-group list-group-flush joblisting">
+                                  <li class="list-group-item">Built highly accurate neural net and classifier models for the detection of counterfeit products on the shopping platform and accurate migration of product listings</li>
+                                  <li class="list-group-item">Constructed, tweaked and implemented data models that allow for efficient and accurate migration of product listings</li>
+                                  <li class="list-group-item">Streamlined data analytics pipelines to facilitate efficient processing of information for actionable insights</li>
+                                </ul>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 hobby-photo">
+                                <a target="_blank" href="https://shopee.sg/"><img src="assets/images/shopee.png" class="img-fluid rounded shopee-photo" alt="shopee" style="width:180px; height:180px;"></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>                        
+                      </div>
+              </div>
+          </div>
+      </div>
+  </section>
+    <!-- Scroll to top -->
+
+    <!-- Footer section -->
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+    <script>
+      function onLinkClick() {
+        document.getElementById('skills').scrollIntoView();
+      }
+    </script>
+    <!-- Bootstrap scripts with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
